@@ -3,7 +3,7 @@
     {
       "id": "profile-picture",
       "description": "A profile picture of Uttakarshika.",
-      "imageUrl": "https://images.unsplash.com/photo-1557862921-37829c790f19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3MjE0MDM2ODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/77sN0XPROsp5KsHX0eg7d8/042c772b6dcb00daa2844f73cebb499e/GettyImages-1159379067.jpg?w=1500&h=680&q=60&fit=fill&f=faces&fm=jpg&fl=progressive&auto=format%2Ccompress&dpr=1&w=1000",
       "imageHint": "professional portrait"
     }
   ]
