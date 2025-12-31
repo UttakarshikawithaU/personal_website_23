@@ -10,8 +10,10 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="relative flex min-h-[calc(100dvh-4rem)] items-center justify-center overflow-hidden"
+      /* Removed items-center, added pt-[10dvh] for the 10% top gap */
+      className="relative flex min-h-[calc(100dvh-4rem)] flex-col items-center pt-[10dvh] overflow-hidden"
     >
+      {/* Background Image */}
       <Image
         src="https://images.unsplash.com/photo-1480497490787-505ec076689f?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW4lMjB3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D"
         alt="Hero background"
@@ -20,27 +22,36 @@ export function Hero() {
         priority
         data-ai-hint="mountain wallpaper"
       />
+      
+      {/* Overlay */}
       <div className="absolute inset-0 bg-background/50 backdrop-blur-sm" />
-      <div className="relative container mx-auto px-4 text-center">
-        <div className="relative w-48 h-48 md:w-64 md:h-64 mx-auto mb-6">
+
+      {/* Content Container */}
+      <div className="relative container mx-auto px-4 text-center z-10">
+        
+        {/* Profile Image Div */}
+        {/* aspect-[8/5] keeps the 800:500 shape while scaling with the screen width */}
+        <div className="relative w-full max-w-[800px] aspect-[8/5] mx-auto mb-6">
           {profilePic && (
             <Image
               src={profilePic.imageUrl}
               alt={profile.name}
-              width={800}
-              height={500}
+              fill
               priority
               className="rounded-full object-cover border-4 border-background shadow-lg"
               data-ai-hint={profilePic.imageHint}
             />
           )}
         </div>
+
         <h1 className="font-headline text-4xl md:text-6xl font-bold text-primary">
           {profile.name}
         </h1>
+        
         <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto text-foreground/80">
           {profile.tagline}
         </p>
+
         <div className="mt-8 flex justify-center gap-4">
           <Button asChild size="lg">
             <a href="#contact">Contact Me</a>
@@ -52,6 +63,7 @@ export function Hero() {
             </a>
           </Button>
         </div>
+
         <div className="mt-12 flex justify-center gap-6">
           <a
             href={profile.social.linkedin.href}
