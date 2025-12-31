@@ -12,7 +12,16 @@ export function Hero() {
       id="home"
       className="relative flex min-h-[calc(100dvh-4rem)] items-center justify-center overflow-hidden"
     >
-      <div className="container mx-auto px-4 text-center">
+      <Image
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfF-6pFl0Siw7Ym1aS69hWgrZIXV-FAuAkxw&s"
+        alt="Hero background"
+        fill
+        className="object-cover"
+        priority
+        data-ai-hint="abstract background"
+      />
+      <div className="absolute inset-0 bg-background/50 backdrop-blur-sm" />
+      <div className="relative container mx-auto px-4 text-center">
         <div className="relative w-36 h-36 md:w-48 md:h-48 mx-auto mb-6">
           {profilePic && (
             <Image
