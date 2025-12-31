@@ -13,12 +13,12 @@ export function Hero() {
       className="relative flex min-h-[calc(100dvh-4rem)] items-center justify-center overflow-hidden"
     >
       <Image
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfF-6pFl0Siw7Ym1aS69hWgrZIXV-FAuAkxw&s"
+        src="https://images.unsplash.com/photo-1480497490787-505ec076689f?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW4lMjB3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D"
         alt="Hero background"
         fill
         className="object-cover"
         priority
-        data-ai-hint="abstract background"
+        data-ai-hint="mountain wallpaper"
       />
       <div className="absolute inset-0 bg-background/50 backdrop-blur-sm" />
       <div className="relative container mx-auto px-4 text-center">
