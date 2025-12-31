@@ -22,13 +22,13 @@ export function Hero() {
       />
       <div className="absolute inset-0 bg-background/50 backdrop-blur-sm" />
       <div className="relative container mx-auto px-4 text-center">
-        <div className="relative w-36 h-36 md:w-48 md:h-48 mx-auto mb-6">
+        <div className="relative w-48 h-48 md:w-64 md:h-64 mx-auto mb-6">
           {profilePic && (
             <Image
               src={profilePic.imageUrl}
               alt={profile.name}
-              width={192}
-              height={192}
+              width={800}
+              height={500}
               priority
               className="rounded-full object-cover border-4 border-background shadow-lg"
               data-ai-hint={profilePic.imageHint}

@@ -19,7 +19,7 @@ export const navigation = [
 
 export const profile = {
   name: 'Uttakarshika U.',
-  tagline: 'Data Analyst | Graduate Research Assistant',
+  tagline: 'Data Engineer | Graduate Research Assistant',
   about:
     "I am a Graduate Research Assistant at Bosch Global Software Technologies, leading an innovative multimodal AI-powered breast cancer screening project. I graduated in 2024 from IIIT, Raichur, with a B.Tech in CSE. I am a highly motivated individual with a strong interest in leveraging data to solve complex problems and drive real-world impact. Currently, I am pursuing a Postgraduate Diploma in Big Data Analysis at C-DAC, enhancing my skills in big data engineering and analytics. I am actively seeking data analyst roles to apply my skills and passion for hands-on industry experience.",
   contact: {
