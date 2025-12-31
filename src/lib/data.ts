@@ -121,8 +121,8 @@ export const projects: Project[] = [
     tags: ['AI/ML', 'PyCaret', 'Grad-CAM', 'SHAP', 'Streamlit', 'Docker', 'AWS'],
     link: 'https://www.linkedin.com/in/uttakarshikawithau/details/projects/',
     image: {
-      src: 'https://picsum.photos/seed/project1/600/400',
-      hint: 'medical technology',
+      src: 'https://picsum.photos/seed/medtech/600/400',
+      hint: 'software engineering',
     },
   },
   {
@@ -132,8 +132,8 @@ export const projects: Project[] = [
     tags: ['Data Science', 'Astropy', 'NumPy', 'Matplotlib', 'Python'],
     github: 'https://github.com/UttakarshikawithaU/Bhartiya-Antariksh-Hackathon_ISRO',
     image: {
-      src: 'https://picsum.photos/seed/project2/600/400',
-      hint: 'space galaxy',
+      src: 'https://picsum.photos/seed/dataviz/600/400',
+      hint: 'data visualization',
     },
   },
   {
@@ -143,7 +143,7 @@ export const projects: Project[] = [
     tags: ['Algorithms', 'Data Structures', 'Problem Solving'],
     link: 'https://www.linkedin.com/in/uttakarshikawithau/recent-activity/all/',
     image: {
-      src: 'https://picsum.photos/seed/project3/600/400',
+      src: 'https://picsum.photos/seed/coding/600/400',
       hint: 'code screen',
     },
   },
@@ -154,8 +154,8 @@ export const projects: Project[] = [
     tags: ['Python', 'SQL', 'Problem Solving'],
     link: 'https://www.hackerrank.com/profile/cs20b1023',
     image: {
-      src: 'https://picsum.photos/seed/project4/600/400',
-      hint: 'digital pattern',
+      src: 'https://picsum.photos/seed/backend/600/400',
+      hint: 'server code',
     },
   },
 ];
@@ -187,7 +187,7 @@ export type Recommendation = {
 export const recommendations: Recommendation[] = [
   {
     name: 'Suresh Chavhan',
-    title: 'Assistant Professor, IISER',
+    title: 'Assistant Professor, IISER, SMIEEE',
     text: "Uttakarshika consistently demonstrated exceptional abilities in concept comprehension, lab execution, and content creation. One of her standout strengths is her efficiency in producing high-quality content. Her positive attitude, strong work ethic, and commitment to excellence make her a true asset.",
     avatar: 'https://picsum.photos/seed/rec1/100/100',
     avatarHint: 'professional man',
